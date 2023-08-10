@@ -83,17 +83,8 @@ function wordCounter(sentence) {
   return sentence.split(" ").length;
 }
 
-function isActionValid(input) {
-  return input in actions;
-}
-
 function randomRange(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-function count() {
-  numCount++;
-  return numCount;
 }
 
 function capitalize(sentence) {
